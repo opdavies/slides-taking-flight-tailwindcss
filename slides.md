@@ -572,12 +572,14 @@ variants: {
 - backgroundColor: ['responsive', 'hover', 'focus'],
 + backgroundColor: ['responsive'],
 ```
+<!-- .element: class="text-3xl" -->
 
-<!--s-->
+<!--v-->
 
-# Manually removing** unused or unwanted classes
+## Manually removing unused <br>or unwanted classes
+<!-- .element: class="text-6xl text-center" -->
 
-<!--s-->
+<!--v-->
 
 ```js
 screens: {
@@ -605,7 +607,7 @@ colors: {
   },
 ```
 
-<!--s-->
+<!--v-->
 
 ```diff
 screens: {
@@ -635,47 +637,17 @@ colors: {
 
 Note: Needs to be done manually
 
-<!--s-->
+<!--v-->
 
-# Automatically removing** <br>unused classes
+## Automatically removing<br>unused classes
+<!-- .element: class="text-6xl text-center" -->
 
-<!--s-->
-
-# `npm install --save-dev laravel-mix-purgecss`
-
-<!--s-->
-
-```js
-const mix = require('laravel-mix')
-
-mix.postCss('src/css/site.css', 'dist/css').purgeCss({
-  folders: ['templates'],
-  extensions: ['html', 'php', 'twig'],
-})
-```
-
-<!--s-->
-
-```js
-const mix = require('laravel-mix')
-
-require('laravel-mix-purgecss')
-
-mix.postCss('src/css/site.css', 'dist/css').purgeCss({
-  folders: ['templates'],
-  extensions: ['html', 'php', 'twig'],
-})
-```
-
-Note: Can be tricky using Drupal/WordPress as you don't know where the classes could
-be coming from, no generated output directory
-
-<!--s-->
+<!--v-->
 
 # PurgeCSS is now **included by default** with Tailwind 1.4
+<!-- .element: class="text-6xl text-center" -->
 
-<!--s-->
-
+<!--v-->
 
 ```js
 module.exports = {
@@ -689,22 +661,26 @@ module.exports = {
   plugins: [],
 }
 ```
+<!-- .element: class="text-4xl" -->
 
 <!--s-->
 
-# Avoid repetition by **extracting components
+## Avoid repetition by *extracting components*
+<!-- .element: class="text-6xl text-center" -->
 
-<!--s-->
+<!--v-->
 
-# Does something **justify** <br>becoming a component?
+## Does something *justify* <br>becoming a component?
+<!-- .element: class="text-6xl text-center" -->
 
-<!--s-->
+<!--v-->
 
-# Could the duplication <br>**be moved elsewhere**?
+## Could the duplication <br>*be moved elsewhere*?
+<!-- .element: class="text-6xl text-center" -->
 
 Note: Twig partials Vue components WordPress template parts
 
-<!--s-->
+<!--v-->
 
 ```twig
 {# base.html.twig #}
@@ -718,10 +694,11 @@ Note: Twig partials Vue components WordPress template parts
   </a>
 {% endfor %}
 ```
+<!-- .element: class="text-3xl" -->
 
 Note: Using a loop
 
-<!--s-->
+<!--v-->
 
 ```twig
 {# classes.html.twig #}
@@ -740,11 +717,12 @@ Note: Using a loop
     type: 'kids',
 } %}
 ```
+<!-- .element: class="text-2xl" -->
 
-Note: Move the duplicate markup into a partial, so there's only one version Pass
-data in.
+Note: Move the duplicate markup into a partial, so there's only one version
+Pass data in.
 
-<!--s-->
+<!--v-->
 
 ```css
 a.btn {
@@ -761,7 +739,7 @@ a.btn:hover {
 Note: Use utilities as mixins Copy classes from markup Still re-using the same
 design system and constraints as before
 
-<!--s-->
+<!--v-->
 
 ```css
 a.btn {
@@ -785,13 +763,15 @@ a.btn:hover {
 
 <!--s-->
 
-# Customising Tailwind
+## Customising Tailwind
+<!-- .element: class="text-6xl text-center" -->
 
-<!--s-->
+<!--v-->
 
-# `npx tailwind init`
+`npx tailwind init`
+<!-- .element: class="text-6xl text-center" -->
 
-<!--s-->
+<!--v-->
 
 ```js
 // tailwind.config.js
@@ -805,7 +785,7 @@ module.exports = {
 }
 ```
 
-<!--s-->
+<!--v-->
 
 ```js
 // tailwind.config.js
@@ -821,10 +801,11 @@ module.exports = {
   variants: {},
 }
 ```
+<!-- .element: class="text-3xl" -->
 
 Note: Overrides all colours.
 
-<!--s-->
+<!--v-->
 
 ```js
 // tailwind.config.js
@@ -841,10 +822,11 @@ module.exports = {
   variants: {},
 }
 ```
+<!-- .element: class="text-3xl" -->
 
 Note: Extends Tailwind's default colours
 
-<!--s-->
+<!--v-->
 
 ```js
 // tailwind.config.js
@@ -860,9 +842,10 @@ module.exports = {
 }
 ```
 
-<!--s-->
+<!--v-->
 
-# `npx tailwind init --full`
+`npx tailwind init --full`
+<!-- .element: class="text-6xl text-center" -->
 
 <!--s-->
 
