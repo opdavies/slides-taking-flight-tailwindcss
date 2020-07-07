@@ -16,45 +16,68 @@ revealOptions:
 
 <!--s-->
 
----
+<div class="grid grid-cols-5 gap-10">
+<div class="grid col-span-4">
 
-![125%](images/techs.png)
+- Full Stack Software Developer & System Administrator
+- Senior Software Engineer at Inviqa
+- Part-time freelancer
+- PHP South Wales organiser
+- https://www.oliverdavies.uk
+- [@opdavies](https://twitter.com/opdavies)
 
----
+</div>
+<div class="col-span-1">
 
-# **What is Tailwind CSS?**
+![](assets/images/shared/me-precedent.jpg)<!-- .element: class="rounded-full_" -->
+![](assets/images/shared/inviqa.svg)<!-- .element: class="mt-10" -->
 
----
+</div>  
+</div>
 
-[.footer: tailwindcss.com]
+Note: - I maintain Drupal modules, PHP CLI tools and libraries, Ansible roles
+- Blog on my website
+- I work primarily with Drupal and Symfony I work for Inviqa, but this
+based on my personal and side projects.
+
+<!--v-->
+
+<!-- .slide: class="flex items-center justify-center" -->
+
+![125%](assets/images/techs.png)
+
+<!--s-->
+
+## What is Tailwind CSS?
+<!-- .element: class="text-6xl text-center" -->
+
+<!--v-->
 
 # A **utility-first** CSS framework for rapidly building **custom designs**.
 
-^ CSS utility class generator PostCSS Make different looking sites using the
+Note: CSS utility class generator PostCSS Make different looking sites using the
 same class names No "Tailwind looking site" like there is with Bootstrap
 
----
+<!--v-->
 
-[.footer: tailwindcss.com]
+## Tailwind CSS is a *highly customizable*, *low-level* CSS framework
+<!-- .element: class="text-6xl text-center" -->
 
-# Tailwind CSS is a **highly customizable**, **low-level** CSS framework
-
-^ No components like Bootstrap or Bulma Configure it per project Extendable if
+Note: No components like Bootstrap or Bulma Configure it per project Extendable if
 needed via additional plugins Avoids the need to name things prematurely Can
 extract components if needed (reusability)
 
----
+<!--v-->
 
-[.footer: tailwindcss.com/docs/what-is-tailwind/#designed-to-be-customized]
+## Tailwind is more than a CSS framework, it's an *engine for creating design systems*
+<!-- .element: class="text-6xl text-center" -->
 
-# Tailwind is more than a CSS framework, it's an engine for <br>**creating design systems**.
-
-^ Good default values provided - colours, fonts, padding, widths Designing with
+Note: Good default values provided - colours, fonts, padding, widths Designing with
 constraints. Using inline styles, every value is a magic number. With utilities,
 you're choosing styles from a predefined design system, which makes it much
 easier to build visually consistent UIs.
 
----
+<!--v-->
 
 - Text/border/background colours
 - Font size/family/weight
@@ -66,9 +89,9 @@ easier to build visually consistent UIs.
 - z-index
 - Opacity
 
-^ Some of the 'original' things that Tailwind would generate classes for.
+Note: Some of the 'original' things that Tailwind would generate classes for.
 
----
+<!--v-->
 
 - Screenreader visibility
 - Placeholder colour
@@ -78,183 +101,172 @@ easier to build visually consistent UIs.
 - Transform
 - Spacing / Divide
 
-^ All generated from a single, customisable configuration file.
+Note: All generated from a single, customisable configuration file.
 
----
+<!--v-->
 
-![](images/screenshot-laravel-nova.png)
+![](assets/images/screenshot-laravel-nova.png)
 
----
+<!--v-->
 
-![](images/screenshot-send-firefox.png)
+![](assets/images/screenshot-send-firefox.png)
 
----
+<!--v-->
 
-![](images/screenshot-rebuilding-bartik.png)
+![](assets/images/screenshot-rebuilding-bartik.png)
 
----
+<!--s-->
 
-# **How do I use Tailwind?**
+<!-- .slide: class="flex items-center justify-center" -->
 
-^ From the new tailwindcss.com website
+## How do I use Tailwind?
+<!-- .element: class="text-6xl text-center" -->
 
----
+Note: From the new tailwindcss.com website
 
-# With Tailwind, you style elements <br>by **applying pre-existing classes** directly in your HTML.
+<!--v-->
 
----
+## With Tailwind, you style elements <br>by *applying pre-existing classes* directly in your HTML
+<!-- .element: class="text-6xl text-center" -->
 
-# Using **utility classes** to build custom designs **without writing CSS**
+<!--v-->
 
----
+<!-- .slide: class="flex items-center justify-center text-center" -->
 
-## **Benefits**
+## Using *utility classes* to build custom designs *without writing CSS*
+<!-- .element: class="text-6xl text-center" -->
+
+<!--v-->
+
+## Benefits
 
 - You aren't wasting time and energy inventing class names
 - Your CSS stops growing
 - Making changes feels safer
 
-^ No more adding silly class names like sidebar-inner-wrapper just to be able to
+Note: No more adding silly class names like sidebar-inner-wrapper just to be able to
 style something, and no more agonizing over the perfect abstract name for
 something that's really just a flex container.
 
-^ Using a traditional approach, your CSS files get bigger every time you add a
+Using a traditional approach, your CSS files get bigger every time you add a
 new feature. With utilities, everything is reusable so you rarely need to write
 new CSS.
 
-^ CSS is global and you never know what you're breaking when you make a change.
+CSS is global and you never know what you're breaking when you make a change.
 Classes in your HTML are local, so you can change them without worrying about
 something else breaking.
 
----
+<!--s-->
 
-![500%](images/example/0.png)
+<!-- .slide: class="flex items-center justify-center text-center" -->
 
----
+![500%](assets/images/example/0.png)
 
-![500%](images/example/1.png)
+<!--v-->
 
-^ Add padding with p-6
+<!-- .slide: class="flex items-center justify-center text-center" -->
 
----
+![500%](assets/images/example/1.png)
 
-![500%](images/example/2.png)
+Note: Add padding with p-6
 
-^ Rounded image - rounded-full
+<!--v-->
 
----
+<!-- .slide: class="flex items-center justify-center text-center" -->
 
-![500%](images/example/3.png)
+![500%](assets/images/example/2.png)
 
-^ Centre image using mx-auto
+Note: Rounded image - rounded-full
 
----
+<!--v-->
 
-![500%](images/example/4.png)
+<!-- .slide: class="flex items-center justify-center text-center" -->
 
-^ Larger text - text-lg
+![500%](assets/images/example/3.png)
 
----
+Note: Centre image using mx-auto
 
-![500%](images/example/5.png)
+<!--v-->
 
-^ Purple text - text-purple-500
+<!-- .slide: class="flex items-center justify-center text-center" -->
 
----
+![500%](assets/images/example/4.png)
 
-![500%](images/example/6.png)
+Note: Larger text - text-lg
 
-^ Grey text - text-gray-600
+<!--v-->
 
----
+<!-- .slide: class="flex items-center justify-center text-center" -->
 
-![500%](images/example/7.png)
+![500%](assets/images/example/5.png)
 
-^ Centre text - text-center
+Note: Purple text - text-purple-500
 
----
+<!--v-->
 
-![500%](images/example/8.png)
+<!-- .slide: class="flex items-center justify-center text-center" -->
 
-^ Responsive: enable flexbox on medium screens - md:flex
+![500%](assets/images/example/6.png)
 
----
+Note: Grey text - text-gray-600
 
-![500%](images/example/9.png)
+<!--v-->
 
-^ Remove margin around image - md:mx-0
+<!-- .slide: class="flex items-center justify-center text-center" -->
 
----
+![500%](assets/images/example/7.png)
 
-![500%](images/example/10.png)
+Note: Centre text - text-center
 
-^ Re-align text on medium screens - md:text-left
+<!--s-->
 
----
+## How do I install Tailwind?
+<!-- .element: class="text-6xl text-center" -->
 
-![500%](images/example/11.png)
+<!--v-->
 
-^ md:mr-6 - add margin to the side of the image on medium screens
+## 1. Use the CDN
+<!-- .element: class="text-6xl text-center" -->
 
----
+<!--v-->
 
-![500%](images/example/12.png)
+## https://unpkg.com/tailwindcss/dist/tailwind.min.css
+<!-- .element: class="text-6xl text-center" -->
 
-^ Increase image size - md:h-24 md:w-24
+<!--v-->
 
----
+## To get the most out of Tailwind, <br>*you really should install it via npm*
+<!-- .element: class="text-6xl text-center" -->
 
-![500%](images/example/13.png)
-
-^ Smaller view
-
----
-
-# **How do I install Tailwind?**
-
----
-
-# **1. Use the CDN**
-
----
-
-[.footer: https://next.tailwindcss.com/docs/installation]
-
-## **https://unpkg.com/tailwindcss/dist/tailwind.min.css**
-
----
-
-[.footer: https://next.tailwindcss.com/docs/installation]
-
-## **To get the most out of Tailwind, <br>you really should install it via npm.**
-
-^ - You can't customize Tailwind's default theme
+Note: - You can't customize Tailwind's default theme
 
 - You can't use any directives like _@apply_, _@variants_, etc.
 - You can't enable features like _group-hover_
 - You can't install third-party plugins
 
----
+<!--v-->
 
-## **2. Installing Tailwind via NPM**
+## 2. Installing Tailwind via NPM
+<!-- .element: class="text-6xl text-center" -->
 
----
+<!--v-->
 
 ## `npm install --save-dev` <br>`tailwindcss`
+<!-- .element: class="text-6xl text-center font-normal" -->
 
 ## `yarn add -D tailwindcss`
+<!-- .element: class="mt-20 text-6xl text-center font-normal" -->
 
-^ Adds it as a dependency to your package.json file
+Note: Adds it as a dependency to your package.json file
 
----
+<!--s-->
 
-## **Adding Tailwind to your CSS**
+## Adding Tailwind to your CSS
+<!-- .element class="text-6xl text-center" -->
 
----
+<!--v-->
 
-[.code-highlight: 2-7]
-
-```css
+```scss
 /* src/css/app.pcss */
 
 @tailwind base;
@@ -264,37 +276,36 @@ something else breaking.
 @tailwind utilities;
 ```
 
----
-
-[.code-highlight: 5,9,13]
+<!--v-->
 
 ```
 /* src/css/app.pcss */
 
 @tailwind base;
-
-/* Custom base styles go here */
+/* Custom base styles */
 
 @tailwind components;
-
-/* Custom components go here */
+/* Custom components */
 
 @tailwind utilities;
-
-/* Custom utilities go here */
+/* Custom utilities */
 ```
+<!-- .element: class="text-3xl" -->
 
----
+<!--s-->
 
-## **Processing your CSS with Tailwind <br>with the build command**
+## Processing your CSS with the *build command*
+<!-- .element: class="text-6xl text-center" -->
 
-^ Compile the generated CSS Pass through PostCSS and Tailwind
+Note: Compile the generated CSS Pass through PostCSS and Tailwind
 
----
+<!--v-->
+
+<!-- .slide: class="text-center" -->
 
 # `npx tailwind build` <br>`src/css/app.pcss` <br>`-o dist/css/app.css`
 
----
+<!--v-->
 
 ```css
 .text-left {
@@ -313,16 +324,18 @@ something else breaking.
   text-align: justify;
 }
 ```
+<!-- .element: class="text-2xl" -->
 
----
+<!--s-->
 
-## **Processing your CSS with Tailwind <br>with Laravel Mix**
+## Processing your CSS with *Webpack Encore*
+<!-- .element: class="text-6xl text-center" -->
 
----
+<!--v-->
 
 # `npm install --save-dev laravel-mix`
 
----
+<!--v-->
 
 ```js
 // webpack.mix.js
@@ -338,9 +351,9 @@ mix.postCss(
 )
 ```
 
-^ PostCSS - useful if you're including other PostCSS plugins like PostCSS Nested
+Note: PostCSS - useful if you're including other PostCSS plugins like PostCSS Nested
 
----
+<!--v-->
 
 ```js
 // webpack.mix.js
@@ -353,7 +366,7 @@ mix.postCss('src/css/app.pcss', 'dist/css')
   .tailwind()
 ```
 
----
+<!--v-->
 
 ```html
 <!DOCTYPE html>
@@ -366,36 +379,43 @@ mix.postCss('src/css/app.pcss', 'dist/css')
   <body></body>
 </html>
 ```
+<!-- .element class="text-3xl" -->
 
----
+<!--v-->
 
-# `npm run dev`
+## `npm run dev`
+<!-- .element class="text-6xl text-center font-normal" -->
 
-# `npm run watch`
+## `npm run watch`
+<!-- .element class="text-6xl text-center font-normal" -->
 
-# `npm run prod`
+## `npm run prod`
+<!-- .element class="text-6xl text-center font-normal" -->
 
----
+<!--s-->
 
-# **Interaction states**
+## Interaction states
+<!-- .element: class="text-6xl text-center" -->
 
 ## hover, focus, active, disabled, visited, <br>group-hover, focus-within, <br>first-child, last-child...
+<!-- .element: class="text-4xl text-center text-gray-700" -->
 
-^ Start to differ from inline styles
+Note: Start to differ from inline styles
 
----
+<!--v-->
 
 # `[state][separator][class]`
+<!-- .element: class="text-6xl text-center" -->
 
-^ State = hover, focus, group focus, focus within Separator = configurable,
-colon by default Class = the same utility class that you would have used
-normally
+Note: State = hover, focus, group focus, focus within Separator = configurable,
+colon by default Class = the same utility class that you would have used normally
 
----
+<!--v-->
 
-# `hover:text-red-500`
+`hover:text-red-500`
+<!-- .element: class="text-6xl text-center" -->
 
----
+<!--v-->
 
 ```css
 .text-red-500 {
@@ -410,16 +430,21 @@ normally
   color: #f56565;
 }
 ```
+<!-- .element class="text-3xl" -->
 
----
+<!--v-->
 
 ```html
-<a href="#" class="text-red-500 hover:text-red-800">
+<a
+  href="#"
+  class="text-red-500 hover:text-red-800"
+>
   Read more
 </a>
 ```
+<!-- .element class="text-4xl" -->
 
----
+<!--v-->
 
 ```js
 // defaultConfig.stub.js
@@ -435,18 +460,21 @@ variants: {
   backgroundRepeat: ['responsive'],
   ...
 ```
+<!-- .element class="text-3xl" -->
 
----
+<!--s-->
 
-# **Responsive**
+## Responsive
+<!-- .element: class="text-6xl text-center" -->
 
-^ Mobile first
+Note: Mobile first
 
----
+<!--v-->
 
-# [fit] `.[screen][separator][class]`
+`.[screen][separator][class]`
+<!-- .element: class="text-6xl text-center" -->
 
----
+<!--v-->
 
 ```js
 // defaultConfig.stub.js
@@ -459,15 +487,17 @@ screens: {
 },
 ```
 
----
+<!--v-->
 
-# `md:flex`
+`md:flex`
+<!-- .element: class="text-6xl text-center" -->
 
----
+<!--v-->
 
-# `md:hover:bg-red-500`
+`md:hover:bg-red-500`
+<!-- .element: class="text-6xl text-center" -->
 
----
+<!--v-->
 
 ```css
 .block {
@@ -486,8 +516,9 @@ screens: {
   }
 }
 ```
+<!-- .element class="text-2xl" -->
 
----
+<!--v-->
 
 ```html
 <div class="block md:flex">
@@ -501,15 +532,17 @@ screens: {
 </div>
 ```
 
----
+<!--s-->
 
-# **Keeping Things Small: <br>Controlling the File Size**
+## Keeping Things Small: <br>*Controlling the File Size*
+<!-- .element: class="text-6xl text-center" -->
 
----
+<!--v-->
 
-# Disabling unused variants <br>and core plugins
+## Disabling unused variants <br>and core plugins
+<!-- .element: class="text-6xl text-center" -->
 
----
+<!--v-->
 
 ```js
 // tailwind.config.js
@@ -522,8 +555,9 @@ variants: {
   backgroundAttachment: ['responsive'],
   backgroundColor: ['responsive', 'hover', 'focus'],
 ```
+<!-- .element class="text-3xl" -->
 
----
+<!--v-->
 
 ```diff
 // tailwind.config.js
@@ -539,11 +573,11 @@ variants: {
 + backgroundColor: ['responsive'],
 ```
 
----
+<!--s-->
 
-# **Manually removing** unused or unwanted classes
+# Manually removing** unused or unwanted classes
 
----
+<!--s-->
 
 ```js
 screens: {
@@ -571,7 +605,7 @@ colors: {
   },
 ```
 
----
+<!--s-->
 
 ```diff
 screens: {
@@ -599,17 +633,17 @@ colors: {
   },
 ```
 
-^ Needs to be done manually
+Note: Needs to be done manually
 
----
+<!--s-->
 
-# **Automatically removing** <br>unused classes
+# Automatically removing** <br>unused classes
 
----
+<!--s-->
 
 # `npm install --save-dev laravel-mix-purgecss`
 
----
+<!--s-->
 
 ```js
 const mix = require('laravel-mix')
@@ -620,9 +654,7 @@ mix.postCss('src/css/site.css', 'dist/css').purgeCss({
 })
 ```
 
----
-
-[.code-highlight: 1,3,6-9]
+<!--s-->
 
 ```js
 const mix = require('laravel-mix')
@@ -635,16 +667,14 @@ mix.postCss('src/css/site.css', 'dist/css').purgeCss({
 })
 ```
 
-^ Can be tricky using Drupal/WordPress as you don't know where the classes could
+Note: Can be tricky using Drupal/WordPress as you don't know where the classes could
 be coming from, no generated output directory
 
----
+<!--s-->
 
 # PurgeCSS is now **included by default** with Tailwind 1.4
 
----
-
-[.code-highlight: 2-6]
+<!--s-->
 
 
 ```js
@@ -660,21 +690,21 @@ module.exports = {
 }
 ```
 
----
+<!--s-->
 
-# Avoid repetition by **extracting components**
+# Avoid repetition by **extracting components
 
----
+<!--s-->
 
 # Does something **justify** <br>becoming a component?
 
----
+<!--s-->
 
 # Could the duplication <br>**be moved elsewhere**?
 
-^ Twig partials Vue components WordPress template parts
+Note: Twig partials Vue components WordPress template parts
 
----
+<!--s-->
 
 ```twig
 {# base.html.twig #}
@@ -689,9 +719,9 @@ module.exports = {
 {% endfor %}
 ```
 
-^ Using a loop
+Note: Using a loop
 
----
+<!--s-->
 
 ```twig
 {# classes.html.twig #}
@@ -711,10 +741,10 @@ module.exports = {
 } %}
 ```
 
-^ Move the duplicate markup into a partial, so there's only one version Pass
+Note: Move the duplicate markup into a partial, so there's only one version Pass
 data in.
 
----
+<!--s-->
 
 ```css
 a.btn {
@@ -728,10 +758,10 @@ a.btn:hover {
 }
 ```
 
-^ Use utilities as mixins Copy classes from markup Still re-using the same
+Note: Use utilities as mixins Copy classes from markup Still re-using the same
 design system and constraints as before
 
----
+<!--s-->
 
 ```css
 a.btn {
@@ -753,15 +783,15 @@ a.btn:hover {
 }
 ```
 
----
+<!--s-->
 
-# **Customising Tailwind**
+# Customising Tailwind
 
----
+<!--s-->
 
 # `npx tailwind init`
 
----
+<!--s-->
 
 ```js
 // tailwind.config.js
@@ -775,9 +805,7 @@ module.exports = {
 }
 ```
 
----
-
-[.code-highlight: 5-7]
+<!--s-->
 
 ```js
 // tailwind.config.js
@@ -794,11 +822,9 @@ module.exports = {
 }
 ```
 
-^ Overrides all colours.
+Note: Overrides all colours.
 
----
-
-[.code-highlight: 5-9]
+<!--s-->
 
 ```js
 // tailwind.config.js
@@ -816,11 +842,9 @@ module.exports = {
 }
 ```
 
-^ Extends Tailwind's default colours
+Note: Extends Tailwind's default colours
 
----
-
-[.code-highlight: 1,4-5]
+<!--s-->
 
 ```js
 // tailwind.config.js
@@ -836,21 +860,21 @@ module.exports = {
 }
 ```
 
----
+<!--s-->
 
 # `npx tailwind init --full`
 
----
+<!--s-->
 
-# **Extending Tailwind CSS <br>with Plugins**
+## Extending Tailwind CSS <br>with Plugins
+<!-- .element: class="text-6xl text-center" -->
 
----
+<!--v-->
 
-# `npm install --save-dev tailwindcss-list-reset`
+`npm install --save-dev tailwindcss-list-reset`
+<!-- .element: class="text-6xl text-center" -->
 
----
-
-[.code-highlight: 7-9]
+<!--v-->
 
 ```js
 // tailwind.config.js
@@ -863,8 +887,9 @@ module.exports = {
   variants: {},
 }
 ```
+<!-- .element: class="text-3xl" -->
 
----
+<!--v-->
 
 ```css
 .list-reset {
@@ -873,12 +898,12 @@ module.exports = {
 }
 ```
 
----
+<!--v-->
 
 ```js
 // index.js
 
-module.exports = variants => ({addUtilities}) => {
+module.exports = variants => ({ addUtilities }) => {
   addUtilities(
     {
       '.list-reset': {
@@ -890,25 +915,28 @@ module.exports = variants => ({addUtilities}) => {
   )
 }
 ```
+<!-- .element: class="text-3xl" -->
 
----
+<!--s-->
 
-# **Demo**
+## Demo
+<!-- .element: class="text-6xl text-center" -->
 
----
+<!--s-->
 
-## **Useful links**
+## Useful links
 
-- tailwindcss.com
-- tailwindui.com
-- builtwithtailwind.com
-- youtube.com/adamwathan
-- drupal.org/project/tailwindcss
-- oliverdavies.uk/tags/tailwind-css
-- oliverdavies.uk/tailwind-repos
+- https://tailwindcss.com
+- https://tailwindui.com
+- https://builtwithtailwind.com
+- https://youtube.com/adamwathan
+- https://drupal.org/project/tailwindcss
+- https://oliverdavies.uk/tags/tailwind-css
+- https://oliverdavies.uk/tailwind-repos
 
----
+<!--s-->
 
-# **Questions?**
+## Questions?
 
-### oliverdavies.uk/tailwind-talk <br>@opdavies
+- https://www.oliverdavies.uk
+- https://twitter.com/opdavies

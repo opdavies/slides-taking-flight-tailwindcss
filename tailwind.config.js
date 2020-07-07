@@ -9,7 +9,7 @@ module.exports = {
     extend: {
       fontFamily: {
         "mono": [
-          'Operator Mono',
+          'Operator Mono Medium',
           ...defaultTheme.fontFamily.mono
         ]
       }
