@@ -590,10 +590,8 @@ screens: {
 },
 colors: {
   transparent: 'transparent',
-
   black: '#000',
   white: '#fff',
-
   gray: {
     100: '#f7fafc',
     200: '#edf2f7',
@@ -606,6 +604,7 @@ colors: {
     900: '#1a202c',
   },
 ```
+<!-- .element: class="text-lg" -->
 
 <!--v-->
 
@@ -618,10 +617,8 @@ screens: {
 },
 colors: {
   transparent: 'transparent',
-
   black: '#000',
   white: '#fff',
-
   gray: {
     100: '#f7fafc',
 -   200: '#edf2f7',
@@ -634,6 +631,7 @@ colors: {
     900: '#1a202c',
   },
 ```
+<!-- .element: class="text-lg" -->
 
 Note: Needs to be done manually
 
@@ -760,6 +758,7 @@ a.btn:hover {
   background-color: #2b6cb0;
 }
 ```
+<!-- .element: class="text-xl" -->
 
 <!--s-->
 
@@ -866,7 +865,9 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [require('tailwindcss-list-reset')()],
+  plugins: [
+    require('tailwindcss-list-reset')()
+  ],
   variants: {},
 }
 ```
