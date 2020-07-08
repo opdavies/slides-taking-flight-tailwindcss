@@ -333,37 +333,53 @@ Note: Compile the generated CSS Pass through PostCSS and Tailwind
 
 <!--v-->
 
-# `npm install --save-dev laravel-mix`
+# `npm install --save-dev @symfony/webpack-encore`
 
 <!--v-->
 
 ```js
-// webpack.mix.js
+// webpack.config.js
 
-const mix = require('laravel-mix')
+let Encore = require('@symfony/webpack-encore')
 
-mix.postCss(
-  'src/css/app.pcss',
-  'dist/css',
-  [
-    require('tailwindcss')()
-  ]
-)
+Encore
+  .disableSingleRuntimeChunk()
+  .setOutputPath('dist/')
+  .setPublicPath('/dist')
+  .addStyleEntry('app', './assets/css/tailwind.pcss')
+  .enablePostCssLoader()
+
+module.exports = Encore.getWebpackConfig()
 ```
+<!-- .element: class="text-3xl" -->
+
 
 Note: PostCSS - useful if you're including other PostCSS plugins like PostCSS Nested
 
 <!--v-->
 
 ```js
-// webpack.mix.js
+// postcss.config.js
 
-const mix = require('laravel-mix')
+module.exports = {
+  plugins: [
+    require('tailwindcss')
+  ]
+}
+```
 
-require('laravel-mix-tailwind')
+<!--v-->
 
-mix.postCss('src/css/app.pcss', 'dist/css')
-  .tailwind()
+```plain
+$ npx encore dev
+
+Running webpack ...
+
+DONE  Compiled successfully in 1705ms                                                   
+
+1 files written to dist
+
+Entrypoint app [big] = app.css
 ```
 
 <!--v-->
@@ -380,17 +396,6 @@ mix.postCss('src/css/app.pcss', 'dist/css')
 </html>
 ```
 <!-- .element class="text-3xl" -->
-
-<!--v-->
-
-## `npm run dev`
-<!-- .element class="text-6xl text-center font-normal" -->
-
-## `npm run watch`
-<!-- .element class="text-6xl text-center font-normal" -->
-
-## `npm run prod`
-<!-- .element class="text-6xl text-center font-normal" -->
 
 <!--s-->
 
@@ -660,6 +665,16 @@ module.exports = {
 }
 ```
 <!-- .element: class="text-4xl" -->
+
+<!--v-->
+
+`npx encore dev`
+<!-- .element: class="text-6xl text-center" -->
+
+<!--v-->
+
+`NODE_ENV=production npx encore prod`
+<!-- .element: class="text-6xl text-center" -->
 
 <!--s-->
 
