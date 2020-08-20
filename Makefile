@@ -26,4 +26,4 @@ generate-static-slides: install-node-dependencies install-shared-assets
 	npx reveal-md $(REVEAL_ARGS) --static --asset-dirs=assets
 
 serve: install-shared-assets generate-theme-css
-	npx reveal-md $(REVEAL_ARGS) --port=8000 --watch
+	npx reveal-md $(REVEAL_ARGS) --port=9000 --watch

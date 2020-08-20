@@ -1,5 +1,5 @@
 ---
-title: Template for presentations using reveal-md and Tailwind CSS
+title: Taking Flight with Tailwind CSS
 theme: theme/slides.css
 highlightTheme: a11y-light
 separator: <!--s-->
@@ -12,6 +12,11 @@ revealOptions:
 ---
 
 # Taking Flight with _Tailwind CSS_
+<!-- .element class="mx-auto max-w-3xl text-6xl leading-snug font-extrabold text-center" -->
+
+<!--s-->
+
+## Fun fact: these slides are *built with Tailwind CSS*
 <!-- .element class="mx-auto max-w-3xl text-6xl leading-snug font-extrabold text-center" -->
 
 <!--s-->
@@ -29,10 +34,11 @@ revealOptions:
 </div>
 <div class="col-span-1">
 
-![](assets/images/shared/me-precedent.jpg)<!-- .element: class="rounded-full_" -->
-![](assets/images/shared/inviqa.svg)<!-- .element: class="mt-10" -->
+![](assets/images/shared/me-precedent.jpg)
+![](assets/images/od-logo.png)<!-- .element: class="mt-8" -->
+![](assets/images/shared/inviqa.svg)<!-- .element: class="mt-8" -->
 
-</div>  
+</div>
 </div>
 
 Note: - I maintain Drupal modules, PHP CLI tools and libraries, Ansible roles
@@ -53,7 +59,8 @@ based on my personal and side projects.
 
 <!--v-->
 
-# A **utility-first** CSS framework for rapidly building **custom designs**.
+## A **utility-first** CSS framework for rapidly building **custom designs**.
+<!-- .element: class="text-6xl text-center" -->
 
 Note: CSS utility class generator PostCSS Make different looking sites using the
 same class names No "Tailwind looking site" like there is with Bootstrap
@@ -303,7 +310,7 @@ Note: Compile the generated CSS Pass through PostCSS and Tailwind
 
 <!-- .slide: class="text-center" -->
 
-# `npx tailwind build` <br>`src/css/app.pcss` <br>`-o dist/css/app.css`
+# `npx tailwind build` <br>`src/css/app.pcss` <br>`-o build/app.css`
 
 <!--v-->
 
@@ -344,8 +351,8 @@ let Encore = require('@symfony/webpack-encore')
 
 Encore
   .disableSingleRuntimeChunk()
-  .setOutputPath('dist/')
-  .setPublicPath('/dist')
+  .setOutputPath('build/')
+  .setPublicPath('/build')
   .addStyleEntry('app', './assets/css/tailwind.pcss')
   .enablePostCssLoader()
 
@@ -390,7 +397,7 @@ Entrypoint app [big] = app.css
   <head>
     <meta charset="UTF-8" />
     <title>My new website</title>
-    <link rel="stylesheet" href="/dist/css/app.css" />
+    <link rel="stylesheet" href="/build/app.css" />
   </head>
   <body></body>
 </html>
@@ -921,6 +928,12 @@ module.exports = variants => ({ addUtilities }) => {
 ## Demo
 <!-- .element: class="text-6xl text-center" -->
 
+<!--v-->
+
+<!-- .slide: class="h-full w-full" -->
+
+<iframe class="h-full w-full" src="http://rebuilding-symfony.oliverdavies.uk"/>
+
 <!--s-->
 
 ## Useful links
@@ -930,7 +943,7 @@ module.exports = variants => ({ addUtilities }) => {
 - https://builtwithtailwind.com
 - https://youtube.com/adamwathan
 - https://drupal.org/project/tailwindcss
-- https://oliverdavies.uk/tags/tailwind-css
+- https://oliverdavies.uk/blog/tags/tailwind-css
 - https://oliverdavies.uk/tailwind-repos
 
 <!--s-->
