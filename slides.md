@@ -822,6 +822,7 @@ a.btn:hover {
 // tailwind.config.js
 
 module.exports = {
+  purge: [],
   theme: {
     extend: {},
   },
@@ -837,6 +838,7 @@ module.exports = {
 // tailwind.config.js
 
 module.exports = {
+  purge: [],
   theme: {
     colors: {
       inherit: 'inherit',
@@ -857,6 +859,7 @@ Note: Overrides all colours.
 // tailwind.config.js
 
 module.exports = {
+  purge: [],
   theme: {
     extend: {
       colors: {
@@ -878,6 +881,7 @@ Note: Extends Tailwind's default colours
 // tailwind.config.js
 
 module.exports = {
+  purge: [],
   prefix: '',
   important: false,
   theme: {
