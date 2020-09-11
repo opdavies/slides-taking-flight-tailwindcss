@@ -979,6 +979,11 @@ module.exports = variants => ({ addUtilities }) => {
 
 <!--s-->
 
+![](assets/images/paul-hennell-tweet.png)
+<!-- .element: class="mx-auto w-3/5" -->
+
+<!--s-->
+
 ## Questions?
 
 - https://www.oliverdavies.uk
