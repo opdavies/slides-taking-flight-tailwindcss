@@ -759,6 +759,7 @@ a.btn:hover {
   @apply bg-blue-700;
 }
 ```
+<!-- .element: class="text-3xl" -->
 
 Note: Use utilities as mixins Copy classes from markup Still re-using the same
 design system and constraints as before
