@@ -12,7 +12,10 @@ revealOptions:
 ---
 
 # Taking Flight with _Tailwind CSS_
-<!-- .element class="mx-auto max-w-3xl text-6xl leading-snug font-extrabold text-center" -->
+<!-- .element class="mx-auto max-w-3xl text-6xl font-extrabold text-center" -->
+
+By Oliver Davies
+<!-- .element class="mt-8 text-center text-gray-900" -->
 
 <!--s-->
 
