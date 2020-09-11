@@ -91,26 +91,42 @@ easier to build visually consistent UIs.
 <!--v-->
 
 - Text/border/background colours
+<!-- .element: class="fragment" -->
 - Font size/family/weight
+<!-- .element: class="fragment" -->
 - Alignment
+<!-- .element: class="fragment" -->
 - Padding/margin/negative margin
+<!-- .element: class="fragment" -->
 - Flexbox
+<!-- .element: class="fragment" -->
 - Positioning
+<!-- .element: class="fragment" -->
 - Lists
+<!-- .element: class="fragment" -->
 - z-index
+<!-- .element: class="fragment" -->
 - Opacity
+<!-- .element: class="fragment" -->
 
 Note: Some of the 'original' things that Tailwind would generate classes for.
 
 <!--v-->
 
 - Screenreader visibility
+<!-- .element: class="fragment" -->
 - Placeholder colour
+<!-- .element: class="fragment" -->
 - first-child, last-child, nth-child
+<!-- .element: class="fragment" -->
 - CSS Grid
+<!-- .element: class="fragment" -->
 - Transition
+<!-- .element: class="fragment" -->
 - Transform
+<!-- .element: class="fragment" -->
 - Spacing / Divide
+<!-- .element: class="fragment" -->
 
 Note: All generated from a single, customisable configuration file.
 
@@ -152,8 +168,11 @@ Note: From the new tailwindcss.com website
 ## Benefits
 
 - You aren't wasting time and energy inventing class names
+<!-- .element: class="fragment" -->
 - Your CSS stops growing
+<!-- .element: class="fragment" -->
 - Making changes feels safer
+<!-- .element: class="fragment" -->
 
 Note: No more adding silly class names like sidebar-inner-wrapper just to be able to
 style something, and no more agonizing over the perfect abstract name for
