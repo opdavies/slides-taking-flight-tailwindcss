@@ -26,20 +26,21 @@ By Oliver Davies
 
 <div class="grid grid-cols-5 gap-10">
 <div class="grid col-span-4">
+<div class="flex items-center">
 
 - Full Stack Software Developer & System Administrator
 - Senior Software Engineer at Inviqa
 - Part-time freelancer
-- PHP South Wales organiser
-- https://www.oliverdavies.uk
-- [@opdavies](https://twitter.com/opdavies)
+- [oliverdavies.uk](https://www.oliverdavies.uk)
+- [drupal.org/u/opdavies](https://www.drupal.org/u/opdavies)
+- [twitter.com/opdavies](https://twitter.com/opdavies)
 
 </div>
+</div>
+
 <div class="col-span-1">
 
 ![](assets/images/shared/me-precedent.jpg)
-![](assets/images/od-logo.png)<!-- .element: class="mt-8" -->
-![](assets/images/shared/inviqa.svg)<!-- .element: class="mt-8" -->
 
 </div>
 </div>
