@@ -407,7 +407,7 @@ Running webpack ...
 
 DONE  Compiled successfully in 1705ms                                                   
 
-1 files written to dist
+1 files written to build
 
 Entrypoint app [big] = app.css
 ```
