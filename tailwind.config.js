@@ -6,6 +6,9 @@ module.exports = {
     './slides.md'
   ],
   theme: {
+    colors: {
+      blue: '#064771'
+    },
     extend: {
       fontFamily: {
         "mono": [
