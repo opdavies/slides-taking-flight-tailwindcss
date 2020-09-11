@@ -1,14 +1,5 @@
 ---
 title: Taking Flight with Tailwind CSS
-theme: theme/slides.css
-highlightTheme: a11y-light
-separator: <!--s-->
-verticalSeparator: <!--v-->
-revealOptions:
-  backgroundTransition: 'none'
-  controls: false
-  progress: false
-  transition: 'none'
 ---
 
 # Taking Flight with _Tailwind CSS_
