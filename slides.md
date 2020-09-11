@@ -506,8 +506,8 @@ Note: Mobile first
 
 <!--v-->
 
-`.[screen][separator][class]`
-<!-- .element: class="text-6xl text-center" -->
+`[screen][separator][class]`
+<!-- .element: class="text-5xl text-center" -->
 
 <!--v-->
 
@@ -829,6 +829,7 @@ module.exports = {
   variants: {},
 }
 ```
+<!-- .element: class="text-2xl" -->
 
 <!--v-->
 
@@ -846,7 +847,7 @@ module.exports = {
   variants: {},
 }
 ```
-<!-- .element: class="text-3xl" -->
+<!-- .element: class="text-2xl" -->
 
 Note: Overrides all colours.
 
@@ -867,7 +868,7 @@ module.exports = {
   variants: {},
 }
 ```
-<!-- .element: class="text-3xl" -->
+<!-- .element: class="text-2xl" -->
 
 Note: Extends Tailwind's default colours
 
@@ -886,6 +887,7 @@ module.exports = {
   variants: {},
 }
 ```
+<!-- .element: class="text-2xl" -->
 
 <!--v-->
 
@@ -945,7 +947,7 @@ module.exports = variants => ({ addUtilities }) => {
   )
 }
 ```
-<!-- .element: class="text-3xl" -->
+<!-- .element: class="text-2xl" -->
 
 <!--s-->
 
