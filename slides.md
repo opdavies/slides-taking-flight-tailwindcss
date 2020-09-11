@@ -153,7 +153,7 @@ Note: From the new tailwindcss.com website
 
 <!--v-->
 
-## With Tailwind, you style elements <br>by *applying pre-existing classes* directly in your HTML
+## With Tailwind, you style elements by *applying <br>pre-existing classes* directly <br>in your HTML
 <!-- .element: class="text-6xl text-center" -->
 
 <!--v-->
@@ -703,7 +703,7 @@ module.exports = {
 
 <!--v-->
 
-`NODE_ENV=production npx encore prod`
+`NODE_ENV=production` <br>`npx encore prod`
 <!-- .element: class="text-6xl text-center" -->
 
 <!--s-->
