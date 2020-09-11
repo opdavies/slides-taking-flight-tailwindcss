@@ -31,9 +31,9 @@ By Oliver Davies
 - Full Stack Software Developer & System Administrator
 - Senior Software Engineer at Inviqa
 - Part-time freelancer
-- [oliverdavies.uk](https://www.oliverdavies.uk)
-- [drupal.org/u/opdavies](https://www.drupal.org/u/opdavies)
-- [twitter.com/opdavies](https://twitter.com/opdavies)
+- https://www.oliverdavies.uk
+- https://www.drupal.org/u/opdavies
+- https://twitter.com/opdavies
 
 </div>
 </div>
