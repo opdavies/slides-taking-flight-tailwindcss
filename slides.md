@@ -950,6 +950,7 @@ module.exports = variants => ({ addUtilities }) => {
 - https://drupal.org/project/tailwindcss
 - https://oliverdavies.uk/blog/tags/tailwind-css
 - https://oliverdavies.uk/tailwind-repos
+- __#tailwindcss__ on Drupal Slack
 
 <!--s-->
 
