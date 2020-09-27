@@ -2,9 +2,12 @@ const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
   important: true,
-  purge: [
-    './slides.md'
-  ],
+  purge: {
+    mode: 'layers',
+    content: [
+      './slides.md'
+    ]
+  },
   theme: {
     extend: {
       fontFamily: {
@@ -16,5 +19,8 @@ module.exports = {
     }
   },
   variants: {},
-  plugins: []
+  plugins: [],
+  future: {
+    purgeLayersByDefault: true
+  }
 }
