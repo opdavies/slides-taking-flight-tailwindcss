@@ -14,16 +14,16 @@ install-shared-assets:
 	git submodule init
 	git submodule update
 
-install-node-dependencies: package.json
-	npm install
+install-node-dependencies: package.json package-lock.json
+	npm ci
 
 generate-theme-css: install-node-dependencies
-	npx encore dev
+	npm run development
 
 generate-static-slides: install-node-dependencies install-shared-assets
-	NODE_ENV=production npx encore production --progress
+	npm run production
 	rm -fr _static
 	npx reveal-md $(REVEAL_ARGS) --static --asset-dirs=assets
 
-serve: install-shared-assets generate-theme-css
-	npx reveal-md $(REVEAL_ARGS) --port=9000 --watch
+serve: install-shared-assets
+	npm run serve

@@ -4,6 +4,7 @@
 !/assets/**
 !/Makefile
 !/package.json
+!/package-lock.json
 !/postcss.config.js
 !/reveal-md.json
 !/reveal.json
