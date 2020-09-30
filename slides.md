@@ -313,6 +313,21 @@ Note: Adds it as a dependency to your package.json file
 ```
 <!-- .element: class="text-3xl" -->
 
+<!--v-->
+
+```
+/* src/css/app.pcss */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  /* Custom components */
+}
+```
+<!-- .element: class="text-3xl" -->
+
 <!--s-->
 
 ## Processing your CSS with the *build command*
