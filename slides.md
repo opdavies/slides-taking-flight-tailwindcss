@@ -57,26 +57,35 @@ based on my personal and side projects.
 ## A **utility-first** CSS framework for rapidly building **custom designs**.
 <!-- .element: class="text-6xl text-center" -->
 
-Note: CSS utility class generator PostCSS Make different looking sites using the
-same class names No "Tailwind looking site" like there is with Bootstrap
+Note:
+- CSS utility class generator
+- PostCSS
+- Make different looking sites using the
+same class names
+- No "Tailwind looking site" like there is with Bootstrap
 
 <!--v-->
 
 ## Tailwind CSS is a *highly customizable*, *low-level* CSS framework
 <!-- .element: class="text-6xl text-center" -->
 
-Note: No components like Bootstrap or Bulma Configure it per project Extendable if
-needed via additional plugins Avoids the need to name things prematurely Can
-extract components if needed (reusability)
+Note:
+- No components like Bootstrap or Bulma
+- Configure it per project
+- Extendable if needed via additional plugins
+- Avoids the need to name things prematurely
+- Can extract components if needed (reusability)
 
 <!--v-->
 
 ## Tailwind is more than a CSS framework, it's an *engine for creating design systems*
 <!-- .element: class="text-6xl text-center" -->
 
-Note: Good default values provided - colours, fonts, padding, widths Designing with
-constraints. Using inline styles, every value is a magic number. With utilities,
-you're choosing styles from a predefined design system, which makes it much
+Note:
+- Good default values provided - colours, fonts, padding, widths
+- Designing with constraints.
+- Using inline styles, every value is a magic number.
+- With utilities, you're choosing styles from a predefined design system, which makes it much
 easier to build visually consistent UIs.
 
 <!--v-->
@@ -707,12 +716,23 @@ module.exports = {
 `npx encore dev`
 <!-- .element: class="text-6xl text-center" -->
 
+Notes:
+Development version, includes all of the output
+
 <!--v-->
 
 `NODE_ENV=production` <br>`npx encore prod`
 <!-- .element: class="text-6xl text-center" -->
 
+Notes:
+Production version, just the purged output
+
 <!--s-->
+
+## How I deal with the repetition?
+<!-- .element: class="text-6xl text-center" -->
+
+<!--v-->
 
 ## Avoid repetition by *extracting components*
 <!-- .element: class="text-6xl text-center" -->
@@ -727,7 +747,10 @@ module.exports = {
 ## Could the duplication <br>*be moved elsewhere*?
 <!-- .element: class="text-6xl text-center" -->
 
-Note: Twig partials Vue components WordPress template parts
+Note:
+- Twig partials
+- Vue components
+- WordPress template parts
 
 <!--v-->
 
@@ -786,8 +809,11 @@ a.btn:hover {
 ```
 <!-- .element: class="text-3xl" -->
 
-Note: Use utilities as mixins Copy classes from markup Still re-using the same
-design system and constraints as before
+Note:
+- Use utilities as mixins
+- Copy classes from markup
+- Still re-using the same design system and constraints as before
+- Experimental flag to allow for applying complex classes
 
 <!--v-->
 
@@ -963,12 +989,6 @@ module.exports = variants => ({ addUtilities }) => {
 
 ## Demo
 <!-- .element: class="text-6xl text-center" -->
-
-<!--v-->
-
-<!-- .slide: class="h-full w-full" -->
-
-<iframe class="h-full w-full" src="http://rebuilding-symfony.oliverdavies.uk"/>
 
 <!--s-->
 
