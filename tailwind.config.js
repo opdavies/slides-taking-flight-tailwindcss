@@ -5,7 +5,8 @@ module.exports = {
   purge: {
     mode: 'layers',
     content: [
-      './slides.md'
+      './slides.md',
+      './template.html'
     ]
   },
   theme: {

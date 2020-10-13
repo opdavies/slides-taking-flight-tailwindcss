@@ -10,5 +10,6 @@
 !/reveal.json
 !/slides.md
 !/tailwind.config.js
+!/template.html
 !/webpack.config.js
 .DS*

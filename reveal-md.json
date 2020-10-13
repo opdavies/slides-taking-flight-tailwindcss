@@ -1,6 +1,7 @@
 {
   "highlightTheme": "a11y-light",
   "separator": "<!--s-->",
+  "template": "template.html",
   "theme": "theme/slides.css",
   "verticalSeparator": "<!--v-->"
 }
